@@ -1,0 +1,12 @@
+# Deny everything by default — safer than allow-listing
+/*
+
+# Explicitly allow only public, safe files
+!AGENTS.md
+!skills/
+!README.md
+!LICENSE
+!CONTRIBUTING.md
+!.gitignore
+!.github/
+!opencode.json.example
